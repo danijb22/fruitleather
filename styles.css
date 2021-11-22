@@ -2,19 +2,24 @@
  * Main CSS
  */
 
- /** This is a comment */
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body, * { font-family: 'Alfa Slab One', cursive; }
+
+/** This is a comment */
 body {
   background-color: rgb(164, 99, 184);
   margin: 0;
 }
 
 main { 
-    min-height: calc(100vh - 76px);
+    min-height: calc(100vh - 84px);
 }
 
 .inner-cont {
     padding: 50px 15px;
-    text-align: right;
+    text-align: center;
 }
 
 header {
