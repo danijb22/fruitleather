@@ -1,0 +1,32 @@
+/**
+ * Main CSS
+ */
+
+ /** This is a comment */
+body {
+  background-color: rgb(164, 99, 184);
+  margin: 0;
+}
+
+main { 
+    min-height: calc(100vh - 76px);
+}
+
+.inner-cont {
+    background-color: rgb(72, 49, 109);
+    padding: 50px 15px;
+    margin: 10px;
+    border: double 3px rgb(228, 177, 238);
+}
+
+header {
+  background: rgb(195, 151, 199);
+  padding: 5px;
+  margin: 10px;
+}
+
+footer {
+    padding: 5px;
+    background-color: rgb(195, 151, 199);
+}
+
