@@ -3,18 +3,24 @@
  */
 
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
-body, * { font-family: 'Alfa Slab One', cursive; }
+@import 'big-cursors.css';
+
+body, * { font-family: Chicago, sans-serif; font-weight: 550; }
+
+.ascii-art {
+  font-family: monospace;
+  white-space: pre;
+}
 
 /** This is a comment */
 body {
   background-color: rgb(164, 99, 184);
-  margin: 0;
 }
 
 main { 
     min-height: calc(100vh - 84px);
+    margin: 20px;
 }
 
 .inner-cont {
