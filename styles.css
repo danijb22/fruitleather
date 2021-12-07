@@ -13,9 +13,30 @@ body, * { font-family: Chicago, sans-serif; font-weight: 550; }
   white-space: pre;
 }
 
+img:hover {
+  opacity: 0.5;
+}
+
+a:hover {color:rgb(112, 170, 170)}
+
+a:active {color:rgb(134, 91, 145)}
+
+table, th, td {
+  border: 3px solid rgb(189, 108, 152);
+  border-style: outset;
+  border-spacing: 5px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+th, td {
+  background-color:rgb(221, 140, 140);
+  text-align: center;
+  
+}
+
 /** This is a comment */
 body {
-  background-color: rgb(164, 99, 184);
+  background-color: rgb(189, 108, 152);
 }
 
 main { 
@@ -29,16 +50,20 @@ main {
 }
 
 header {
-  background: rgb(195, 151, 199);
+  background: rgb(75, 146, 146);
   padding: 5px;
-  margin: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center;
   font-size: 18px;
-}
+  border: 5px solid rgb(75, 146, 146);
+  border-style: outset; }
 
 footer {
     padding: 5px;
-    background-color: rgb(195, 151, 199);
+    background-color:rgb(155, 98, 194);
     font-size: 12px;
 }
 #fruitleather{ margin-left: 200px;}
