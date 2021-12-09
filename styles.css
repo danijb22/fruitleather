@@ -6,8 +6,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto+Mono:wght@300&display=swap');
 
-body, * {font-family: 'Roboto Mono', monospace; }
-
+body, * {
+  font-family: 'ChicagoFLFRegular';
+  font-weight: normal;
+  font-style: normal;
+}
 
 .ascii-art {
   font-family: monospace;
@@ -27,6 +30,7 @@ table, th, td {
   border-style: outset;
   border-spacing: 5px;
   margin-left: 400px;
+  margin-right: 300px;
   margin-top: 50px;
   font-size: 16px;
 }
