@@ -75,8 +75,10 @@ footer {
 }
 #fruitleather{ margin-left: 200px;}
 
-@media(max-width: 12600px) {
-  body {
-    border-top: solid 5px purple;
-  }
+/* uh oh mobillleeeee ????? */
+
+@media(max-width: 600px) {
+  table{margin:0}
+  header{margin:0}
 }
+
