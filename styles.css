@@ -74,3 +74,9 @@ footer {
     font-size: 12px;
 }
 #fruitleather{ margin-left: 200px;}
+
+@media(max-width: 12600px) {
+  body {
+    border-top: solid 5px purple;
+  }
+}
