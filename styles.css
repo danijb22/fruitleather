@@ -25,13 +25,16 @@ a:hover {color:rgb(112, 170, 170)}
 
 a:active {color:rgb(134, 91, 145)}
 
+table {
+  margin-left: 400px;
+  margin-right: 300px;
+  margin-top: 50px;
+}
+
 table, th, td {
   border: 3px solid rgb(189, 108, 152);
   border-style: outset;
   border-spacing: 5px;
-  margin-left: 400px;
-  margin-right: 300px;
-  margin-top: 50px;
   font-size: 16px;
 }
 th, td {
@@ -80,5 +83,11 @@ footer {
 @media(max-width: 600px) {
   table{margin:0}
   header{margin:0}
+
+  tr {display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: auto !important;
+}
 }
 
