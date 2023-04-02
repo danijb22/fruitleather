@@ -81,13 +81,16 @@ footer {
 /* uh oh mobillleeeee ????? */
 
 @media(max-width: 600px) {
-  table{margin:0}
+  table{margin:0;border:none}
   header{margin:0}
+ 
+  th {display: none}
 
   tr {display: flex;
     flex-direction: column;
     margin-top: 20px;
     height: auto !important;
+
 }
 }
 
