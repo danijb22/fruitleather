@@ -26,10 +26,12 @@ a:hover {color:rgb(112, 170, 170)}
 a:active {color:rgb(134, 91, 145)}
 
 table {
-  margin-left: 400px;
-  margin-right: 300px;
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
 }
+
 
 table, th, td {
   border: 3px solid rgb(189, 108, 152);
@@ -89,8 +91,11 @@ footer {
   tr {display: flex;
     flex-direction: column;
     margin-top: 20px;
-    height: auto !important;
+    height: auto !important;}
 
+img {
+  max-width: 100%;
+  max-height: 60vh;
 }
 }
 
