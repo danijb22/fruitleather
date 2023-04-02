@@ -80,6 +80,8 @@ footer {
 }
 #fruitleather{ margin-left: 200px;}
 
+
+
 /* uh oh mobillleeeee ????? */
 
 @media(max-width: 600px) {
@@ -93,9 +95,15 @@ footer {
     margin-top: 20px;
     height: auto !important;}
 
-img {
-  max-width: 100%;
-  max-height: 60vh;
-}
+  img {
+    max-width: 100%;
+    max-height: 60vh;
+  }
+
+  /* Center gallery images */
+  .gallery-page img {
+    display: block;
+    margin: 30px auto;
+  }
 }
 
