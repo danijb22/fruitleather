@@ -4,12 +4,6 @@
 
 /* Import Google Fonts */
 
-@font-face {font-family: 'Sysfont';
-  src: url('sysfont.woff2') format('woff2'),
-  url('sysfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 
 
 
@@ -49,6 +43,7 @@ th, td {
 /** This is a comment */
 body {
   background-color: rgb(189, 108, 152);
+
 }
 
 main { 
@@ -72,7 +67,15 @@ header {
   font-size: 28px;
   font-weight: 900;
   border: 5px solid rgb(75, 146, 146);
-  border-style: outset; }
+  border-style: outset; 
+
+  @font-face {font-family: 'Sysfont';
+    src: url('sysfont.woff2') format('woff2'),
+    url('sysfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
 
 footer {
     padding: 5px;
