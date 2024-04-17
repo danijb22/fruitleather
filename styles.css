@@ -6,10 +6,13 @@
 
 
 body, * {
-  font-family: 'ChicagoFLFRegular';
+  font-family: 'Sysfont';
+  src: url('sysfont.woff2') format('woff2'),
+  url('sysfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
 
 .ascii-art {
   font-family: monospace;
@@ -67,7 +70,7 @@ header {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 900;
   border: 5px solid rgb(75, 146, 146);
   border-style: outset; }
