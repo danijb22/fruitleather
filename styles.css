@@ -36,7 +36,7 @@ table, th, td {
   border: 3px solid rgb(189, 108, 152);
   border-style: outset;
   border-spacing: 5px;
-  font-size: 16px;
+  font-size: 20px;
 }
 th, td {
   background-color:rgb(221, 140, 140);
@@ -67,7 +67,7 @@ header {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 900;
   border: 5px solid rgb(75, 146, 146);
   border-style: outset; }
