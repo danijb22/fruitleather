@@ -6,6 +6,13 @@
 
 
 
+@font-face {
+  font-family: 'ChicagoFLFRegular';
+  src: url('https://fontlibrary.org//face/chicagoflf');
+  font-weight: normal;
+   font-style: normal;
+}
+
 
 .ascii-art {
   font-family: monospace;
@@ -69,12 +76,7 @@ header {
   border: 5px solid rgb(75, 146, 146);
   border-style: outset; 
 
-  @font-face {font-family: 'Sysfont';
-    src: url('sysfont.woff2') format('woff2'),
-    url('sysfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
+  
 }
 
 footer {
