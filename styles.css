@@ -52,12 +52,15 @@ th, td {
 /** This is a comment */
 body {
   background-color: rgb(189, 108, 152);
+  font-family: "DotGothic16", sans-serif;
 
 }
 
 main { 
     min-height: calc(100vh - 84px);
     margin: 20px;
+    font-family: "DotGothic16", sans-serif;
+
 }
 
 .inner-cont {
@@ -73,7 +76,7 @@ header {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 900;
   border: 5px solid rgb(75, 146, 146);
   border-style: outset; 
