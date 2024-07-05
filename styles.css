@@ -60,6 +60,8 @@ main {
     min-height: calc(100vh - 84px);
     margin: 20px;
     font-family: "DotGothic16", sans-serif;
+    font-size: 14px;
+    font-weight: 350;
 
 }
 
